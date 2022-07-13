@@ -1,3 +1,12 @@
+:root {
+   --accent-color: #38761d;
+   --title-color: #666666
+}
+
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
 .header {}
 
 .container {
@@ -33,16 +42,26 @@ padding: 20px;
 }
 
 .pretitle {
-    font-size: ;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--accent-color);
 }
 
 .title {
-
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--title-color)
 }
 
-.aftertitle {}
+.aftertitle {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--accent-color);
+}
 
-.section-title {}
+.section-title {
+color: var(--accent-color);
+}
 
 .subtitle {}
 
