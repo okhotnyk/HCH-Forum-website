@@ -1,12 +1,44 @@
 .header {}
 
-.list {}
+.container {
+max-width: 1000px;
+padding: 20px;
+}
 
-.logo-item {}
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 
-.pretitle {}
+}
+.logo-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
 
-.title {}
+.logo-item {
+    display: inline-block;
+}
+
+.logo-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.title-block {
+    text-align: center;
+}
+
+.pretitle {
+    font-size: ;
+}
+
+.title {
+
+}
 
 .aftertitle {}
 
